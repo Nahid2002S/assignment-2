@@ -96,6 +96,7 @@ ul li a{
 .teams-image{
     max-width: 90%;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 15px;
@@ -240,7 +241,7 @@ ul li a{
     color: #fff;
 }
 
-/* Bonus Section : Our Projects */
+/* Bonus Section : Our Projects Style */
 .our-projects{
     margin-top: 20px;
 }
@@ -289,7 +290,7 @@ ul li a{
     color: rgb(243, 55, 55);
 }
 
-/* Our Sponsor Section */
+/* Our Sponsor Section Style */
 .our-sponsor{
     margin-top: 100px;
     padding: 0 20px;
