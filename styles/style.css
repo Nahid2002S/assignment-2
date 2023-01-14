@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;;
+}
+
+/* Header Style */
+
+header{
+    width: 100%;
+    height: auto;
+    background: rgba(180, 111, 31, 0.1);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px;
+}
+
+.logo{
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Banner Style */
+
+.banner{
+    margin-top: 60px;
+}
+
+.banner-text{
+    text-align: center;
+}
+
+.banner-title{
+    color: #131313;
+    font-size: 45px;
+}
+
+.banner-description{
+    color: #727272;
+    margin-top: 15px;
+}
+
+.primary-btn{
+    padding: 14px 20px;
+    background-color: #FF900E;
+    color: #fff;
+    font-weight: 500;
+    border: 0;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+
+.banner-image{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.banner-image img{
+    width: 80%;
+}
+
+/* Teams Section Style */
+.teams{
+    margin-top: 60px;
+    padding: 0 60px;
+}
+
+.teams-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.teams-image{
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.teams-title{
+    color: #727272;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.teams-title .black{
+    color: #131313;
+    font-weight: 700;
+}
+
+.teams-title .orange{
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.teams-description{
+    color: #727272;
+    margin-top: 20px;
+}
+
+/* Feature Section Style */
+
+.feature-container{
+    display: flex;
+    margin-top: 100px;
+    padding: 0 40px;
+}
+
+.feature-title-border{
+    border-left: 4px solid #FF900E;
+    padding-left: 8px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.feauture-title{
+    font-size: 35px;
+    color: #131313;
+}
+
+.feature-info{
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.feature{
+    width: 85%;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 30px rgb(231, 231, 231);
+}
+
+.experience{
+    width: 250px;
+    height: 130px;
+    position: relative;
+    top: -100px;
+    left: -60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
+.experience-year{
+    font-size: 35px;
+}
+
+.experience-title{
+    font-weight: 500;
+}
+
+/* Fact Section Style */
+.facts{
+    margin-top: 30px;
+    padding: 0 40px;
+}
+
+.fact-title{
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.fact-description{
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.fact-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.fact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin-bottom: 100px;
+    transition: all 0.5s linear;
+}
+
+.fact:hover{
+    transform: rotate(360deg);
+    border-radius: 50%;
+    background-color: #FF900E;
+}
+
+.fact-score{
+    font-size: 30px;
+    color: #424242;
+    transition: all .4s linear;
+}
+
+.fact-info{
+    font-weight: 500;
+    color: #727272;
+    transition: all .4s linear;
+}
+
+.fact:hover .fact-score{
+    color: #fff;
+}
+
+.fact:hover .fact-info{
+    color: #fff;
+}
+
+/* Bonus Section : Our Projects */
+.our-projects{
+    margin-top: 20px;
+}
+
+.project-title{
+    text-align: center;
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 50px;
+}
+
+.project-container{
+    display: flex;
+    padding: 0 40px;
+}
+
+.project{
+    box-shadow: 2px 2px 30px rgb(219, 219, 219);
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.project img{
+    max-width: 100%;
+    width: 340px;
+    border-radius: 5px;
+}
+
+.project-name{
+    margin: 10px 0;
+    color: #424242;
+}
+
+.project-description{
+    color: #727272;
+    margin-bottom: 10px;
+}
+
+.icons{
+    color: #FF900E;
+    margin-bottom: 20px;
+}
+
+.rating{
+    color: rgb(243, 55, 55);
+}
+
+/* Our Sponsor Section */
+.our-sponsor{
+    margin-top: 100px;
+    padding: 0 20px;
+}
+
+.sponsor-text{
+    text-align: center;
+}
+
+.sponsor-title{
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.sponsor-description{
+    color: #727272;
+    margin-bottom: 60px;
+}
+
+.sponsor-logo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+.sponsor-logo img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Footer Style */
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    background-color: #FFF4E7;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.footer-description{
+    color: #424242;
+    text-align: center;
+}
+
+/*----------------------------
+Responsive Design By Media Query
+----------------------------*/
+
+@media only screen and (max-width: 576px) {
+    /* Navbar Section*/
+    .navbar{
+        padding: 40px 20px;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    /* Banner Section */
+    .banner{
+        margin-top: 30px;
+        padding: 10px;
+    }
+    /* Teams Section */
+    .teams{
+        padding: 0;
+    }
+    .teams-container{
+        flex-direction: column;
+    }
+    .teams-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .teams-text{
+        margin-left: 20px;
+    }
+    /* Feature Section */
+    .feature-container{
+        flex-direction: column-reverse;
+    }
+    .feature-text{
+        margin-top: -80px;
+    }
+    .feature{
+        width: 100%;
+    }
+    .feature-image img{
+        width: 95%;
+    }
+    .experience{
+        width: 120px;
+        height: 120px;
+        left: -30px;
+    }
+    .experience-year{
+        font-size: 25px;
+    }
+    .experience-title{
+        font-size: 16px;
+    }
+    /* Fact Section */
+    .fact-container{
+        flex-direction: column;
+    }
+    /* Bonus Section : Our Projects */
+    .project-container{
+        flex-direction: column;
+    }
+    .project{
+        margin-bottom: 15px;
+    }
+    /* Our Sponsor Section */
+    .sponsor-logo{
+        
+    }
+}
