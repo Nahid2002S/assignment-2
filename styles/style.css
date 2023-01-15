@@ -27,6 +27,7 @@ header{
 
 ul{
     display: flex;
+    margin-top: 5px;
 }
 
 ul li{
@@ -102,6 +103,11 @@ ul li a{
     grid-row-gap: 15px;
 }
 
+.teams-image > div{
+    display: flex;
+    justify-content: center;
+}
+
 .teams-title{
     color: #727272;
     font-size: 35px;
@@ -163,6 +169,11 @@ ul li a{
 
 .feature-description{
     color: #727272;
+}
+
+.feature-image > div{
+    display: flex;
+    justify-content: center;
 }
 
 .experience{
@@ -352,6 +363,8 @@ ul li a{
 .sponsor-logo img{
     max-width: 100%;
     margin-bottom: 30px;
+    filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
 }
 
 /* Footer Style */
@@ -394,7 +407,7 @@ Responsive Design By Media Query
     }
     ul{
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
     }
     /* Banner Section */
     .banner{
@@ -419,7 +432,7 @@ Responsive Design By Media Query
     }
     /* Feature Section */
     .feature-container{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .feature-text{
         margin-top: -80px;
