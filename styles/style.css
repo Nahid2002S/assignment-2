@@ -400,8 +400,6 @@ Responsive Design By Media Query
     .banner{
         margin-top: 30px;
         padding: 10px;
-        display: flex;
-        flex-direction: column-reverse;
     }
     /* Teams Section */
     .teams{
