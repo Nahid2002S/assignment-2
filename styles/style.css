@@ -108,6 +108,10 @@ ul li a{
     justify-content: center;
 }
 
+.teams-text{
+    padding: 0 20px;
+}
+
 .teams-title{
     color: #727272;
     font-size: 35px;
