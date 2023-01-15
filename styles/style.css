@@ -83,7 +83,7 @@ ul li a{
 
 /* Teams Section Style */
 .teams{
-    margin-top: 60px;
+    margin-top: 100px;
     padding: 0 60px;
 }
 
@@ -94,7 +94,7 @@ ul li a{
 }
 
 .teams-image{
-    max-width: 90%;
+    max-width: 85%;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
@@ -153,6 +153,15 @@ ul li a{
     padding: 30px;
     margin-bottom: 20px;
     box-shadow: 2px 2px 30px rgb(231, 231, 231);
+}
+
+.feature-name{
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.feature-description{
+    color: #727272;
 }
 
 .experience{
@@ -284,10 +293,31 @@ ul li a{
 .icons{
     color: #FF900E;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .rating{
-    color: rgb(243, 55, 55);
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(12, 150, 24);
+}
+
+.project-btn{
+    padding: 8px 22px;
+    border: 2px solid #FF900E;
+    color: #FF900E;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.project-btn:hover{
+    background-color: #FF900E;
+    color: #fff;
 }
 
 /* Our Sponsor Section Style */
@@ -320,7 +350,7 @@ ul li a{
 
 .sponsor-logo img{
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* Footer Style */
@@ -367,6 +397,8 @@ Responsive Design By Media Query
     .banner{
         margin-top: 30px;
         padding: 10px;
+        display: flex;
+        flex-direction: column-reverse;
     }
     /* Teams Section */
     .teams{
@@ -409,15 +441,14 @@ Responsive Design By Media Query
     .fact-container{
         flex-direction: column;
     }
+    .fact-description{
+        margin-bottom: 60px;
+    }
     /* Bonus Section : Our Projects */
     .project-container{
         flex-direction: column;
     }
     .project{
-        margin-bottom: 15px;
-    }
-    /* Our Sponsor Section */
-    .sponsor-logo{
-        
+        margin-bottom: 20px;
     }
 }
