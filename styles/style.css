@@ -144,6 +144,7 @@ ul li a{
 }
 
 .feature-info{
+    width: 90%;
     color: #727272;
     margin-bottom: 30px;
 }
@@ -381,6 +382,8 @@ ul li a{
 Responsive Design By Media Query
 ----------------------------*/
 
+/* Small Device */
+
 @media only screen and (max-width: 576px) {
     /* Navbar Section*/
     .navbar{
@@ -450,5 +453,13 @@ Responsive Design By Media Query
     }
     .project{
         margin-bottom: 20px;
+    }
+}
+
+/* Medium Device Start*/
+
+@media only screen and (max-width: 768px){
+    .feature-container{
+        flex-direction: column;
     }
 }
