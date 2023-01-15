@@ -413,6 +413,9 @@ Responsive Design By Media Query
     .teams-image{
         grid-template-columns: repeat(1, 1fr);
     }
+    .teams-image img{
+        max-width: 95%;
+    }
     .teams-text{
         margin-left: 20px;
     }
@@ -453,13 +456,5 @@ Responsive Design By Media Query
     }
     .project{
         margin-bottom: 20px;
-    }
-}
-
-/* Medium Device Start*/
-
-@media only screen and (max-width: 768px){
-    .feature-container{
-        flex-direction: column;
     }
 }
