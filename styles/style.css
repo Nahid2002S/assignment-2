@@ -364,7 +364,6 @@ ul li a{
     max-width: 100%;
     margin-bottom: 30px;
     filter: grayscale(100%);
-   -webkit-filter: grayscale(100%);
 }
 
 /* Footer Style */
